@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+
+    display: flex;
+    background-image: url("Images/signup.jpg");
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signup{
+    width: 100%;
+    max-width: 400px;
+    min-height: 600px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+
+.form_title{
+    font-size: 26px;
+    font-weight: 600px;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+}
+
+/*.user-input:nth-child(2n){
+
+    justify-content: end;
+
+}*/
+
+.user-input{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.user-input label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input input{
+    height: 25px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.user-input img{
+    
+    position: absolute;
+    right: 0;
+    margin-top: 36px;
+    margin-right: 25px;
+    
+}
+
+
+
+.gender-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.gender-category{
+    margin: 10px 0;
+    color: white;
+}
+
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+
+.gender-category label,
+.gender-category input,
+.submit-btn input{
+    cursor: pointer;
+}
+
+.submit-btn{
+    margin-top: 30px;
+}
+
+.submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+    background-color: crimson;
+
+}
+
+.submit-btn a{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+
+}
+
+.submit-btn a:hover{
+
+    color: darkblue;
+
+}
+
+.submit-btn input:hover{
+    background-color: deeppink;
+    color: black;
+}
+
+/* LOGIN */
+
+.bdy{
+
+    display: flex;
+    background-image: url("Images/signup.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
+
+
+}
+
+.signup-con{
+    
+    width: 100%;
+    max-width: 400px;
+    min-height: 300px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+
+}
+
+.main-user-info-log{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+
+.users-input-box{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+
+.users-input-box input:nth-child(2){
+    position: relative;
+}
+
+.users-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.users-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+   
+}
+
+.submit-btn-sub input{
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: crimson;
+    
+
+}
+
+.submit-btn-sub a{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+
+}
+
+.submit-btn-sub a:hover{
+
+    color: darkblue;
+
+
+}
+
+.users-input-box img{
+    position: absolute;
+    right: 0;
+    margin-top: 45px;
+    margin-right: 25px;
+    
+
+}
+
+@media(max-width:800){
+
+    .submit-btn-sub input {
+        margin-left: 80px !important;
+       
+    }
+
+}
+
+
+
